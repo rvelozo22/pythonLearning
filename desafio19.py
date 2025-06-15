@@ -1,9 +1,10 @@
-import pygame
+import random
 
-pygame.init()
-pygame.mixer.init()
-pygame.mixer.music.load(r'C:\Users\renat\Downloads\Kendrick Lamar - N95.mp3')
-pygame.mixer.music.play()
+al1 = input('Digite o nome do aluno 1: ')
+al2 = input('\nDigite o nome do aluno 2: ')
+al3 = input('\nDigite o nome do aluno 3: ')
+al4 = input('\nDigite o nome do aluno 4: ')
 
-input('Pressione enter para parar a música.')
-pygame.mixer.music.stop()
+print('-'*75)
+print(f'O aluno sorteado para resolver o exercício foi: {random.choice([al1, al2, al3, al4])}')
+print('-'*75)
