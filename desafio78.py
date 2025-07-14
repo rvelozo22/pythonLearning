@@ -28,10 +28,10 @@ else:
 
 
 if len(posMenor) > 1: 
-    print(f'O menor número foi {menor}, nas posições: ', end='')
+    print(f'\nO menor número foi {menor}, nas posições: ', end='')
     for l in posMenor:
         print(l, end='..')
 else:
-    print(f'O menor número foi {menor}, na posição: ', end='')
+    print(f'\nO menor número foi {menor}, na posição: ', end='')
     print(f'{posMenor[0]}')
 
