@@ -18,7 +18,7 @@ jogos = int(input('Quantos jogos deseja gerar? '))
 for j in range(0, jogos):
     mega = sample(lista, k = 6)
     mega.sort()
-    final.append(mega)
+    final.append(mega[:])
 
 for j in range(len(final)):
     print(f'Jogo {j+1}: ', end ='')
