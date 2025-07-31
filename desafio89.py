@@ -31,7 +31,7 @@ for i in range(len(alunos)):
     print(f'{media}')
 
 while True:
-    select = int(input('Deseja ver as notas de qual aluno? 999 para interromper!'))
+    select = int(input('Deseja ver as notas de qual aluno? 999 para interromper! '))
     if select == 999:
         break
     print()
@@ -40,4 +40,3 @@ while True:
     print(f'{alunos[select][1]}')
     
 
-# print(alunos)
